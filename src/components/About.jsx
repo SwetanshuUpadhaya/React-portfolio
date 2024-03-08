@@ -29,6 +29,7 @@ const About = () => {
             <a
               href="https://drive.google.com/file/d/1ZXxwIi2S1MQGOqKYnnBxEx6SmRR88KJW/view?usp=drive_link"
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>

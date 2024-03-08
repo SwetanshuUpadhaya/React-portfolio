@@ -21,6 +21,7 @@ const Projects = () => {
             <a
               href="https://github.com/SwetanshuUpadhaya/Social-Blog-Application"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -40,6 +41,7 @@ const Projects = () => {
             <a
               href="https://github.com/SwetanshuUpadhaya/Student-Management-System"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -59,6 +61,7 @@ const Projects = () => {
             <a
               href="https://github.com/SwetanshuUpadhaya/tour-management-react-app"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -76,6 +79,7 @@ const Projects = () => {
             <a
               href="https://github.com/SwetanshuUpadhaya/Speech-Emotion-Recognition"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
