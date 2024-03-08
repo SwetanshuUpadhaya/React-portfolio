@@ -1,0 +1,29 @@
+.portfolio {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 12, 50, 1) 60%,
+    rgba(50, 0, 50, 1) 100%
+  );
+  color: #fff;
+}
+
+main {
+  padding: 0 100px;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: purple;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+  z-index: 1000;
+  background: none;
+}
+
+.scroll-to-top:hover {
+  color: rgb(255, 0, 255);
+}

@@ -1,0 +1,64 @@
+.about-container {
+  padding: 100px 0 50px 0;
+  transition: 20s;
+}
+
+.about-container:hover {
+  transform: scale(1.01);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.about-text h2 span {
+  color: rgb(255, 0, 255);
+}
+
+.about-text p {
+  font-size: 1.5rem;
+  padding: 0 30px;
+  border-left: 3px solid purple;
+}
+
+.about-text button {
+  font-size: 1.5rem;
+  margin: 20px 20px 0 0;
+  background: purple;
+  border-radius: 10px;
+  transition: 0.5s;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.about-text button a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-text button:hover {
+  background: rgb(255, 0, 255);
+}
+
+.profile-photo-container {
+  width: 35%; /* Adjust the width as needed */
+}
+
+.profile-photo {
+  background: rgb(128, 0, 128, 0.25);
+  width: 100%;
+  border-radius: 50%; /* Make the image round */
+}

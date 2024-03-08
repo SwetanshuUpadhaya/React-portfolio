@@ -1,0 +1,10 @@
+.footer {
+  color: #ffffff; /* White text color */
+  padding: 5px 0; /* Padding around the content */
+  text-align: center; /* Center-align the text */
+  left: 0; /* Position from the left */
+  bottom: 0; /* Position from the bottom */
+  width: 100%; /* Full width */
+  font-size: 1.25rem;
+  font-weight: 500;
+}

@@ -1,0 +1,47 @@
+.skill-section {
+  padding: 50px 0;
+}
+
+.skill-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 0, 255);
+}
+
+.skill-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.skills-container {
+  width: 50%;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skills-container h3 {
+  font-size: 2rem;
+}
+
+.skill-item h4 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.progress-bar {
+  background-color: rgb(255, 255, 255);
+  height: 10px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: rgb(255, 0, 255);
+  height: 100%;
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}

@@ -1,0 +1,59 @@
+.project-section {
+  padding: 50px 0;
+}
+
+.project-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 0, 255);
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border-radius: 50px;
+  width: 48%;
+  padding: 40px;
+  box-sizing: border-box;
+  border-left: 5px solid purple;
+  border-bottom: 5px solid purple;
+  transition: 0.5s;
+}
+
+.project-card:hover {
+  transform: scale(1.01);
+  color: rgb(255, 0, 255);
+}
+
+.project-card h3 {
+  font-size: 2rem;
+}
+
+.project-card .description,
+.project-card .technologies {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.project-card .technologies {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: purple;
+  font-size: 1.5rem;
+}
+
+.project-links a:hover {
+  color: rgb(255, 0, 255);
+}
