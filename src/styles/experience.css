@@ -3,7 +3,7 @@
 }
 
 .experience-section h2 {
-  font-size: 3rem;
+  font-size: 3vw;
   text-align: center;
   color: rgb(255, 0, 255);
 }
@@ -25,19 +25,26 @@
 }
 
 .experience-item h3 {
-  font-size: 2rem;
+  font-size: 2vw;
   color: rgb(255, 0, 255);
 }
 
 .experience-item .company,
 .experience-item .duration,
 .experience-item .location {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-style: italic;
   color: #a5a5a5;
 }
 
 .experience-item .description {
-  font-size: 1.25rem;
+  font-size: 1.25vw;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    padding: 0 50px;
+    line-height: 30px;
+  }
 }

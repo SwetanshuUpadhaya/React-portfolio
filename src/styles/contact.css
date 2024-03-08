@@ -3,7 +3,7 @@
 }
 
 .contact-container h2 {
-  font-size: 3rem;
+  font-size: 3vw;
   text-align: center;
   color: rgb(255, 0, 255);
 }
@@ -23,7 +23,7 @@
   gap: 20px;
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   padding: 20px;
   border-radius: 20px;
   border: 1px solid rgb(255, 0, 255);
@@ -33,4 +33,16 @@
 .contact-link:hover {
   transform: scale(1.01);
   color: rgb(255, 0, 255);
+}
+
+@media (max-width: 1024px) {
+  .contact-link {
+    width: 41%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-link {
+    width: 100%;
+  }
 }

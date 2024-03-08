@@ -1,17 +1,12 @@
 .about-container {
-  padding: 100px 0 50px 0;
-  transition: 20s;
-}
-
-.about-container:hover {
-  transform: scale(1.01);
+  padding: 50px 0;
 }
 
 .about-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .about-text {
@@ -19,7 +14,7 @@
 }
 
 .about-text h2 {
-  font-size: 4rem;
+  font-size: 4vw;
   margin: 0;
 }
 
@@ -28,13 +23,13 @@
 }
 
 .about-text p {
-  font-size: 1.5rem;
+  font-size: 1.6vw;
   padding: 0 30px;
   border-left: 3px solid purple;
 }
 
 .about-text button {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   margin: 20px 20px 0 0;
   background: purple;
   border-radius: 10px;
@@ -61,4 +56,19 @@
   background: rgb(128, 0, 128, 0.25);
   width: 100%;
   border-radius: 50%; /* Make the image round */
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column-reverse;
+  }
+  .education-item {
+    width: 100%;
+  }
+  .about-container {
+    padding: 50px 0;
+  }
+  .about-text button {
+    padding: 5px;
+  }
 }

@@ -19,15 +19,11 @@ const About = () => {
           </h2>
           <p>
             I'm a software developer specializing in crafting scalable, secure,
-            and data-driven online solutions. Currently pursuing a Master of
-            Engineering degree in Computer Science and Engineering at Chandigarh
-            University, Mohali, I hold a Bachelor of Technology degree in
-            Computer Science and Engineering from DAV University, Jalandhar. My
-            professional journey has honed my skills in utilizing React.js, AWS,
-            Git, Python, HTML/CSS and Node.js to create innovative solutions,
-            and my goal is to continue pushing the boundaries of software
-            development through continuous learning and contribution to industry
-            innovation.
+            and data-driven online solutions. My professional journey has honed
+            my skills in utilizing React.js, AWS, Git, Python, HTML/CSS and
+            Node.js to create innovative solutions, and my goal is to continue
+            pushing the boundaries of software development through continuous
+            learning and contribution to industry innovation.
           </p>
           <button>
             <a

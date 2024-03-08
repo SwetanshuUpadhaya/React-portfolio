@@ -4,7 +4,7 @@
 
 .skill-section h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3vw;
   color: rgb(255, 0, 255);
 }
 
@@ -31,12 +31,12 @@
 }
 
 .skills-container h3 {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .skill-item h4 {
   margin-bottom: 10px;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
 }
 
 .progress-bar {

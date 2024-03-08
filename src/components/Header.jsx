@@ -3,6 +3,11 @@ import "../styles/header.css"; // Import the CSS file
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("about");
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   const scrollToSection = (sectionId) => {
     setActiveLink(sectionId);
@@ -10,12 +15,18 @@ const Header = () => {
       top: document.getElementById(sectionId).offsetTop,
       behavior: "smooth",
     });
+    setMenuOpen(false); // Close the menu after clicking a link
   };
 
   return (
     <header className="header">
       <h1 className="logo">Swetanshu Upadhaya</h1>
-      <nav className="nav">
+      <nav className={`nav ${menuOpen ? "nav-open" : ""}`}>
+        <div className="nav-toggle" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
         <ul className="nav-list">
           <li className="nav-item">
             <a

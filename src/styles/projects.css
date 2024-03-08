@@ -4,7 +4,7 @@
 
 .project-section h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3vw;
   color: rgb(255, 0, 255);
 }
 
@@ -32,17 +32,17 @@
 }
 
 .project-card h3 {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .project-card .description,
 .project-card .technologies {
-  font-size: 1.25rem;
+  font-size: 1.25vw;
   color: #fff;
 }
 
 .project-card .technologies {
-  font-size: 1rem;
+  font-size: 1vw;
   color: #fff;
 }
 
@@ -51,9 +51,21 @@
   margin-right: 10px;
   text-decoration: none;
   color: purple;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .project-links a:hover {
   color: rgb(255, 0, 255);
+}
+
+@media (max-width: 1024px) {
+  .project-card {
+    width: 47%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+  }
 }
