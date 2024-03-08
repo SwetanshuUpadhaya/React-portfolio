@@ -6,9 +6,7 @@ import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
-  const element = (
-    <FontAwesomeIcon icon={(faEnvelope, faPhone, faLinkedin, faLocationDot)} />
-  );
+  <FontAwesomeIcon icon={[faEnvelope, faPhone, faLinkedin, faLocationDot]} />;
 
   return (
     <div id="contact" className="contact-container">

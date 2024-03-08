@@ -36,7 +36,7 @@ const About = () => {
           </button>
           <button>
             <a
-              href="#"
+              href="#contact"
               onClick={(e) => {
                 e.preventDefault();
                 scrollToSection("contact");

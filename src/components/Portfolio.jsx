@@ -15,7 +15,7 @@ import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
 import "../styles/portfolio.css";
 
 const Portfolio = () => {
-  const element = <FontAwesomeIcon icon={faCircleArrowUp} />;
+  <FontAwesomeIcon icon={faCircleArrowUp} />;
 
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
