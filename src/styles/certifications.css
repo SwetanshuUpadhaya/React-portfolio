@@ -41,6 +41,7 @@
 .cert-card .date {
   font-size: 1.25rem;
   color: #fff;
+  font-style: italic;
 }
 
 .cert-links a {
