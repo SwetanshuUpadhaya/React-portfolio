@@ -21,6 +21,13 @@
 
 .skill-item {
   margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.skill-item:hover {
+  transform: scale(1.01);
+  color: rgb(255, 0, 255);
+  cursor: pointer;
 }
 
 .skills-container h3 {

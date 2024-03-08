@@ -18,7 +18,12 @@ const Projects = () => {
             Python, Django, JavaScript, HTML, CSS, SQLite
           </p>
           <div className="project-links">
-            <a href="#">GitHub</a>
+            <a
+              href="https://github.com/SwetanshuUpadhaya/Social-Blog-Application"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -32,7 +37,12 @@ const Projects = () => {
             Django, Python, JavaScript, HTML, CSS, SQLite
           </p>
           <div className="project-links">
-            <a href="#">GitHub</a>
+            <a
+              href="https://github.com/SwetanshuUpadhaya/Student-Management-System"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -46,7 +56,12 @@ const Projects = () => {
             React.js, Node.js, JavaScript, HTML, CSS, Express.js, MongoDB
           </p>
           <div className="project-links">
-            <a href="#">GitHub</a>
+            <a
+              href="https://github.com/SwetanshuUpadhaya/tour-management-react-app"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="project-card">
@@ -58,7 +73,12 @@ const Projects = () => {
           </p>
           <p className="technologies">Python, Machine Learning, MLP</p>
           <div className="project-links">
-            <a href="#">GitHub</a>
+            <a
+              href="https://github.com/SwetanshuUpadhaya/Speech-Emotion-Recognition"
+              target="_blank"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </div>
