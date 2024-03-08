@@ -4,7 +4,6 @@
 
 .education-section h2 {
   text-align: center;
-  font-size: 3vw;
   color: rgb(255, 0, 255);
 }
 
@@ -19,7 +18,7 @@
 .education-item {
   border-radius: 50px;
   width: 48%;
-  padding: 40px;
+  padding: 30px;
   box-sizing: border-box;
   border-left: 5px solid purple;
   border-bottom: 5px solid purple;
@@ -32,7 +31,6 @@
 }
 
 .education-item h3 {
-  font-size: 2vw;
   margin-bottom: 5px;
 }
 
@@ -41,12 +39,10 @@
 .education-item .location {
   font-style: italic;
   color: #fff;
-  font-size: 1.25vw;
 }
 
 .education-item .description {
   margin-top: 10px;
-  font-size: 1vw;
 }
 
 @media (max-width: 1024px) {
@@ -58,6 +54,6 @@
 @media (max-width: 768px) {
   .education-item {
     width: 100%;
-    padding: 30px;
+    padding: 20px;
   }
 }
