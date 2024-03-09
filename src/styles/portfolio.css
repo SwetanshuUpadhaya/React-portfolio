@@ -69,6 +69,7 @@ header a {
 @media (max-width: 768px) {
   main {
     padding: 0 20px;
+    text-align: center;
   }
   .header a {
     font-size: 15px;

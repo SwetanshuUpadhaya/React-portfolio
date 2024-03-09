@@ -35,3 +35,9 @@
 .experience-item .description {
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .experience-container {
+    text-align: center;
+  }
+}
