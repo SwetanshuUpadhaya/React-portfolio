@@ -13,35 +13,35 @@ main {
 }
 
 h1 {
-  font-size: 15px;
+  font-size: 25px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 25px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 25px;
 }
 
 button {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 main a {
-  font-size: 15px;
+  font-size: 25px;
 }
 
 header a {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .scroll-to-top {
@@ -64,6 +64,40 @@ header a {
   main {
     padding: 0 60px;
   }
+  .scroll-to-top {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+
+  main a {
+    font-size: 20px;
+  }
+
+  header a {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -71,10 +105,38 @@ header a {
     padding: 0 20px;
     text-align: center;
   }
-  .header a {
+  .scroll-to-top {
+    font-size: 30px;
+  }
+  h1 {
     font-size: 15px;
   }
-  .scroll-to-top {
-    font-size: 35px;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 10px;
+  }
+
+  main a {
+    font-size: 15px;
+  }
+
+  header a {
+    font-size: 15px;
   }
 }
