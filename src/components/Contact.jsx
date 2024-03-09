@@ -12,7 +12,7 @@ const Contact = () => {
     <div id="contact" className="contact-container">
       <h2>Contact Me</h2>
       <div className="contact-links">
-        <a href="mailto:swetanshuupadhaya" className="contact-link">
+        <a href="mailto:swetanshuupadhaya@gmail.com" className="contact-link">
           <FontAwesomeIcon icon={faEnvelope} /> swetanshuupadhaya@gmail.com
         </a>
         <a href="tel:+918988458771" className="contact-link">
