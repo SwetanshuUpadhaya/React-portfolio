@@ -42,7 +42,7 @@
 }
 
 .about-text button:hover {
-  background: rgb(255, 0, 255);
+  background: rgb(190, 0, 190);
 }
 
 .profile-photo-container {
@@ -50,9 +50,9 @@
 }
 
 .profile-photo {
-  background: rgba(128, 0, 128, 0.1);
+  background: rgb(128, 0, 128, 0.1);
   width: 100%;
-  border: 5px solid rgba(128, 0, 128, 0.1);
+  border: 5px solid rgba(128, 0, 128, 0.15);
   border-radius: 50%; /* Make the image round */
 }
 
