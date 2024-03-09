@@ -50,9 +50,14 @@
 }
 
 .profile-photo {
-  background: rgb(128, 0, 128, 0.25);
+  background: rgba(128, 0, 128, 0.1);
   width: 100%;
+  border: 5px solid rgba(128, 0, 128, 0.1);
   border-radius: 50%; /* Make the image round */
+}
+
+.profile-photo-container {
+  width: 40%;
 }
 
 @media (max-width: 768px) {
@@ -68,5 +73,8 @@
   }
   .about-text p {
     border-right: 3px solid purple;
+  }
+  .profile-photo-container {
+    width: 60%;
   }
 }
